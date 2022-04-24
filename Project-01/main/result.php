@@ -142,8 +142,8 @@
                                                             echo "<td>" . $key->pasien->kode . "</td>";
                                                             echo "<td>" . $key->pasien->nama . "</td>";
                                                             echo "<td>" . $key->pasien->gender . "</td>";
-                                                            echo "<td>" . $key->berat . "</td>";
-                                                            echo "<td>" . $key->tinggi . "</td>";
+                                                            echo "<td>" . $key->berat . " kg</td>";
+                                                            echo "<td>" . $key->tinggi . " cm</td>";
                                                             echo "<td>" . $key->BMI . "</td>";
                                                             echo "<td>" . $key->statusBMI($key->BMI) ."</td>";
                                                             echo "</tr>";
@@ -157,8 +157,8 @@
                                                             echo "<td>" . $result->pasien->kode[3] . "</td>";
                                                             echo "<td>" . ucwords($result->pasien->nama) . "</td>";
                                                             echo "<td>" . $result->pasien->gender . "</td>";
-                                                            echo "<td>" . $result->berat . "</td>";
-                                                            echo "<td>" . $result->tinggi . "</td>";
+                                                            echo "<td>" . $result->berat . " Kg</td>";
+                                                            echo "<td>" . $result->tinggi . " Cm</td>";
                                                             echo "<td>" . $result->BMI . "</td>";
                                                             echo "<td>" . $result->statusBMI($result->BMI) ."</td>";
                                                             echo "</tr>";
