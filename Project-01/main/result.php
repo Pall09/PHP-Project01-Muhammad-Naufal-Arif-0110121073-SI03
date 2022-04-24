@@ -157,8 +157,8 @@
                                                             echo "<td>" . $result->pasien->kode[3] . "</td>";
                                                             echo "<td>" . ucwords($result->pasien->nama) . "</td>";
                                                             echo "<td>" . $result->pasien->gender . "</td>";
-                                                            echo "<td>" . $result->berat . " Kg</td>";
-                                                            echo "<td>" . $result->tinggi . " Cm</td>";
+                                                            echo "<td>" . $result->berat . " kg</td>";
+                                                            echo "<td>" . $result->tinggi . " cm</td>";
                                                             echo "<td>" . $result->BMI . "</td>";
                                                             echo "<td>" . $result->statusBMI($result->BMI) ."</td>";
                                                             echo "</tr>";
